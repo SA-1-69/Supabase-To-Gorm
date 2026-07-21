@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-    dsn := "postgresql://postgres:Poonchub%40123456@db.ppkbtiuegryphbcolkts.supabase.co:5432/postgres"
+    dsn := "<Your Data Source Name>"
 
     db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
     if err != nil {
